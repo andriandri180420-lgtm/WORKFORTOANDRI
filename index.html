@@ -43,7 +43,7 @@
   color-scheme:dark;
   --shadow:0 12px 40px rgba(0,0,0,.5);
   
-  /* Grid & Glow Dark Mode (Seperti Referensi) */
+  /* Grid & Glow Dark Mode */
   --grid-color: rgba(43,89,255,.12);
   --glow-color: rgba(43,89,255,.15);
 }
@@ -629,6 +629,9 @@ footer{text-align:center;color:var(--mute);font-size:.8rem;padding:50px 0 30px;p
 
   <h3 class="subsec rv">Tech Stack</h3>
 
+  <!-- ============================================================ -->
+  <!-- TECH STACK — CARA MENAMBAHKAN GAMBAR LANGSUNG DI SINI        -->
+  <!-- ============================================================ -->
   <div class="tech-frame rv">
     <div class="tech-frame-head">
       <span class="eyebrow">Skills & Tools</span>
@@ -642,7 +645,149 @@ footer{text-align:center;color:var(--mute);font-size:.8rem;padding:50px 0 30px;p
     <div class="tech-fade-left"></div>
     <button class="tech-arrow left" id="techPrev" aria-label="Scroll kiri">❮</button>
     <button class="tech-arrow right" id="techNext" aria-label="Scroll kanan">❯</button>
-    <div class="tech-scroll" id="stack"></div>
+    
+    <div class="tech-scroll" id="stack">
+      
+      <!-- 🟢 CONTOH 1: KARTU CAPCUT -->
+      <div class="skill-chip" style="--brand:#00D9A0; --brand-soft:rgba(0,217,160,.12); --brand-glow:rgba(0,217,160,.45);">
+        <span class="chip-rank">#1</span>
+        <div class="chip-logo">
+          <!-- 👇 UBAH "src" INI DENGAN GAMBAR ANDA -->
+          <img src="assets/CAPCUT.webp" alt="CapCut" onerror="this.src='https://placehold.co/100x100/e11d12/fff7f4?text=C'">
+        </div>
+        <div class="chip-name">CapCut</div>
+        <span class="chip-level">Expert</span>
+        <div class="chip-bar-row">
+          <div class="chip-bar"><i data-w="95"></i></div>
+          <span class="chip-pct">95%</span>
+        </div>
+      </div>
+
+      <!-- 🟢 CONTOH 2: KARTU CANVA -->
+      <div class="skill-chip" style="--brand:#00C4CC; --brand-soft:rgba(0,196,204,.12); --brand-glow:rgba(0,196,204,.45);">
+        <span class="chip-rank silver">#2</span>
+        <div class="chip-logo">
+          <!-- 👇 UBAH "src" INI DENGAN GAMBAR ANDA -->
+          <img src="assets/canva.jpeg" alt="Canva" onerror="this.src='https://placehold.co/100x100/e11d12/fff7f4?text=C'">
+        </div>
+        <div class="chip-name">Canva</div>
+        <span class="chip-level">Expert</span>
+        <div class="chip-bar-row">
+          <div class="chip-bar"><i data-w="95"></i></div>
+          <span class="chip-pct">95%</span>
+        </div>
+      </div>
+
+      <!-- 🟢 CONTOH 3: KARTU PREMIERE PRO -->
+      <div class="skill-chip" style="--brand:#9999FF; --brand-soft:rgba(153,153,255,.15); --brand-glow:rgba(153,153,255,.5);">
+        <span class="chip-rank bronze">#3</span>
+        <div class="chip-logo">
+          <img src="assets/pr.jpeg" alt="Premiere Pro" onerror="this.src='https://placehold.co/100x100/e11d12/fff7f4?text=P'">
+        </div>
+        <div class="chip-name">Premiere Pro</div>
+        <span class="chip-level">Advanced</span>
+        <div class="chip-bar-row">
+          <div class="chip-bar"><i data-w="60"></i></div>
+          <span class="chip-pct">60%</span>
+        </div>
+      </div>
+
+      <!-- 🟢 CONTOH 4: KARTU AFTER EFFECTS -->
+      <div class="skill-chip" style="--brand:#9999FF; --brand-soft:rgba(153,153,255,.15); --brand-glow:rgba(153,153,255,.5);">
+        <div class="chip-logo">
+          <img src="assets/af.jpeg" alt="After Effects" onerror="this.src='https://placehold.co/100x100/e11d12/fff7f4?text=A'">
+        </div>
+        <div class="chip-name">After Effects</div>
+        <span class="chip-level">Advanced</span>
+        <div class="chip-bar-row">
+          <div class="chip-bar"><i data-w="60"></i></div>
+          <span class="chip-pct">60%</span>
+        </div>
+      </div>
+
+      <!-- 🟢 CONTOH 5: KARTU FIGMA -->
+      <div class="skill-chip" style="--brand:#F24E1E; --brand-soft:rgba(242,78,30,.12); --brand-glow:rgba(242,78,30,.45);">
+        <div class="chip-logo">
+          <img src="assets/figma.jpeg" alt="Figma" onerror="this.src='https://placehold.co/100x100/e11d12/fff7f4?text=F'">
+        </div>
+        <div class="chip-name">Figma</div>
+        <span class="chip-level">Advanced</span>
+        <div class="chip-bar-row">
+          <div class="chip-bar"><i data-w="70"></i></div>
+          <span class="chip-pct">70%</span>
+        </div>
+      </div>
+
+      <!-- 🟢 CONTOH 6: KARTU MAYA 3D -->
+      <div class="skill-chip" style="--brand:#0696D7; --brand-soft:rgba(6,150,215,.12); --brand-glow:rgba(6,150,215,.45);">
+        <div class="chip-logo">
+          <img src="assets/Maya 2018.jpeg" alt="Maya 3D" onerror="this.src='https://placehold.co/100x100/e11d12/fff7f4?text=M'">
+        </div>
+        <div class="chip-name">Maya 3D</div>
+        <span class="chip-level">Intermediate</span>
+        <div class="chip-bar-row">
+          <div class="chip-bar"><i data-w="50"></i></div>
+          <span class="chip-pct">50%</span>
+        </div>
+      </div>
+
+      <!-- 🟢 CONTOH 7: KARTU HTML5 -->
+      <div class="skill-chip" style="--brand:#E34F26; --brand-soft:rgba(227,79,38,.12); --brand-glow:rgba(227,79,38,.45);">
+        <div class="chip-logo">
+          <img src="assets/html.jpeg" alt="HTML5" onerror="this.src='https://placehold.co/100x100/e11d12/fff7f4?text=H'">
+        </div>
+        <div class="chip-name">HTML5</div>
+        <span class="chip-level">Intermediate</span>
+        <div class="chip-bar-row">
+          <div class="chip-bar"><i data-w="50"></i></div>
+          <span class="chip-pct">50%</span>
+        </div>
+      </div>
+
+      <!-- 🟢 CONTOH 8: KARTU JAVASCRIPT -->
+      <div class="skill-chip" style="--brand:#E0B400; --brand-soft:rgba(224,180,0,.15); --brand-glow:rgba(224,180,0,.5);">
+        <div class="chip-logo">
+          <img src="assets/js (1).jpeg" alt="JavaScript" onerror="this.src='https://placehold.co/100x100/e11d12/fff7f4?text=J'">
+        </div>
+        <div class="chip-name">JavaScript</div>
+        <span class="chip-level">Intermediate</span>
+        <div class="chip-bar-row">
+          <div class="chip-bar"><i data-w="50"></i></div>
+          <span class="chip-pct">50%</span>
+        </div>
+      </div>
+
+      <!-- 🟢 CONTOH 9: KARTU CSS3 -->
+      <div class="skill-chip" style="--brand:#1572B6; --brand-soft:rgba(21,114,182,.12); --brand-glow:rgba(21,114,182,.45);">
+        <div class="chip-logo">
+          <img src="assets/css.jpeg" alt="CSS3" onerror="this.src='https://placehold.co/100x100/e11d12/fff7f4?text=C'">
+        </div>
+        <div class="chip-name">CSS3</div>
+        <span class="chip-level">Intermediate</span>
+        <div class="chip-bar-row">
+          <div class="chip-bar"><i data-w="50"></i></div>
+          <span class="chip-pct">50%</span>
+        </div>
+      </div>
+
+      <!-- ======================================================= -->
+      <!-- 🟢 CONTOH MENAMBAH SKILL BARU (COPY-PASTE BLOK INI)   -->
+      <!-- ======================================================= -->
+      <!-- 
+      <div class="skill-chip" style="--brand:#FF0000; --brand-soft:rgba(255,0,0,.12); --brand-glow:rgba(255,0,0,.45);">
+        <div class="chip-logo">
+          <img src="assets/logo-baru.png" alt="Skill Baru" onerror="this.src='https://placehold.co/100x100/e11d12/fff7f4?text=S'">
+        </div>
+        <div class="chip-name">Nama Skill</div>
+        <span class="chip-level">Expert</span>
+        <div class="chip-bar-row">
+          <div class="chip-bar"><i data-w="90"></i></div>
+          <span class="chip-pct">90%</span>
+        </div>
+      </div>
+      -->
+
+    </div>
   </div>
 
   <h3 class="subsec rv">Certificates</h3>
@@ -756,7 +901,7 @@ function setTheme(t){
   store.set('theme',t);
 }
 const savedTheme = store.get('theme');
-// Default ke dark jika belum ada (karena Anda ingin tampilan seperti referensi)
+// Default ke dark jika belum ada
 setTheme(savedTheme || 'dark'); 
 $('#theme').onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
 
@@ -842,74 +987,11 @@ const topBtn = $('#top');
 if(topBtn) topBtn.onclick=()=>scrollTo({top:0});
 
 /* ================================================================ */
-/* ============== TECH STACK — HORIZONTAL SCROLL ================== */
+/* ============== TECH STACK — ANIMASI BAR & PANAH ================ */
 /* ================================================================ */
-const capcutSVG = 'data:image/svg+xml;utf8,' + encodeURIComponent(
-  '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><rect width="24" height="24" rx="6" fill="#00D9A0"/><path d="M7 8v8M11 8v8M15 8l-3 4 3 4" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg>'
-);
-
-const S=[
-  {n:'CapCut',        v:95, lv:'Expert',       color:'#00D9A0', soft:'rgba(0,217,160,.12)', glow:'rgba(0,217,160,.45)', localLogo:'assets/logo-capcut.png',       cdnLogo:capcutSVG},
-  {n:'Canva',         v:95, lv:'Expert',       color:'#00C4CC', soft:'rgba(0,196,204,.12)', glow:'rgba(0,196,204,.45)', localLogo:'assets/logo-canva.png',        cdnLogo:'https://cdn.simpleicons.org/canva/00C4CC'},
-  {n:'Premiere Pro',  v:60, lv:'Advanced',     color:'#9999FF', soft:'rgba(153,153,255,.15)',glow:'rgba(153,153,255,.5)', localLogo:'assets/logo-premiere.png',     cdnLogo:'https://cdn.simpleicons.org/adobepremierepro/9999FF'},
-  {n:'After Effects', v:60, lv:'Advanced',     color:'#9999FF', soft:'rgba(153,153,255,.15)',glow:'rgba(153,153,255,.5)', localLogo:'assets/logo-aftereffects.png', cdnLogo:'https://cdn.simpleicons.org/adobeaftereffects/9999FF'},
-  {n:'Figma',         v:70, lv:'Advanced',     color:'#F24E1E', soft:'rgba(242,78,30,.12)', glow:'rgba(242,78,30,.45)', localLogo:'assets/logo-figma.png',        cdnLogo:'https://cdn.simpleicons.org/figma/F24E1E'},
-  {n:'Maya 3D',       v:50, lv:'Intermediate', color:'#0696D7', soft:'rgba(6,150,215,.12)', glow:'rgba(6,150,215,.45)', localLogo:'assets/logo-maya.png',         cdnLogo:'https://cdn.simpleicons.org/autodesk/0696D7'},
-  {n:'HTML5',         v:50, lv:'Intermediate', color:'#E34F26', soft:'rgba(227,79,38,.12)', glow:'rgba(227,79,38,.45)', localLogo:'assets/logo-html5.png',        cdnLogo:'https://cdn.simpleicons.org/html5/E34F26'},
-  {n:'JavaScript',    v:50, lv:'Intermediate', color:'#E0B400', soft:'rgba(224,180,0,.15)', glow:'rgba(224,180,0,.5)',  localLogo:'assets/logo-javascript.png',   cdnLogo:'https://cdn.simpleicons.org/javascript/F7DF1E'},
-  {n:'CSS3',          v:50, lv:'Intermediate', color:'#1572B6', soft:'rgba(21,114,182,.12)',glow:'rgba(21,114,182,.45)',localLogo:'assets/logo-css3.png',         cdnLogo:'https://cdn.simpleicons.org/css3/1572B6'}
-];
-
-function createLogoImg(skill){
-  const img = document.createElement('img');
-  img.alt = skill.n;
-  img.loading = 'lazy';
-  img.src = skill.localLogo;
-  img.onerror = function(){
-    this.onerror = function(){
-      this.replaceWith(Object.assign(document.createElement('span'),{
-        textContent: skill.n.charAt(0).toUpperCase(),
-        style: `font-weight:900;font-size:1.4rem;color:${skill.color};letter-spacing:-1px;`
-      }));
-    };
-    this.src = skill.cdnLogo;
-  };
-  return img;
-}
-
 function initSkills(){
-  const st=$('#stack');
-  if(!st) return;
-  st.innerHTML='';
-
-  S.forEach((s, k)=>{
-    const chip = document.createElement('div');
-    chip.className = 'skill-chip';
-    chip.style.setProperty('--brand', s.color);
-    chip.style.setProperty('--brand-soft', s.soft);
-    chip.style.setProperty('--brand-glow', s.glow);
-
-    let rankHTML = '';
-    if (k === 0) rankHTML = '<span class="chip-rank">#1</span>';
-    else if (k === 1) rankHTML = '<span class="chip-rank silver">#2</span>';
-    else if (k === 2) rankHTML = '<span class="chip-rank bronze">#3</span>';
-
-    chip.innerHTML = `
-      ${rankHTML}
-      <div class="chip-logo"></div>
-      <div class="chip-name" title="${s.n}">${s.n}</div>
-      <span class="chip-level">${s.lv}</span>
-      <div class="chip-bar-row">
-        <div class="chip-bar"><i data-w="${s.v}"></i></div>
-        <span class="chip-pct">${s.v}%</span>
-      </div>
-    `;
-
-    chip.querySelector('.chip-logo').appendChild(createLogoImg(s));
-    st.appendChild(chip);
-  });
-
-  const bars = $$('.chip-bar i', st);
+  // 1. Animasi Progress Bar saat masuk layar
+  const bars = $$('.chip-bar i');
   const barObs = new IntersectionObserver((entries)=>{
     entries.forEach(en=>{
       if(en.isIntersecting){
@@ -921,10 +1003,7 @@ function initSkills(){
   }, {threshold:.2});
   bars.forEach(b=>barObs.observe(b));
 
-  setupTechArrows();
-}
-
-function setupTechArrows(){
+  // 2. Setup Panah Navigasi
   const scroller = $('#stack');
   const prevBtn = $('#techPrev');
   const nextBtn = $('#techNext');
@@ -949,7 +1028,7 @@ function setupTechArrows(){
 /* ============== DATA PROJECTS =================================== */
 /* ================================================================ */
 const projectsData = [
-  { cat: 'Video & 3D', video: 'https://www.instagram.com/reel/DeyLmYoJBiI/?xtok=MTU1OGVjYm8wZ2Rqdg==', img: 'assets/contentABP.png', title: 'Video Pengenalan ABP', desc: 'Pengenalan ABP • 2026' },
+  { cat: 'Video & 3D', video: '', img: 'assets/contentABP.png', title: 'Video Pengenalan ABP', desc: 'Pengenalan ABP • 2026' },
   { cat: 'Video & 3D', video: 'https://www.instagram.com/reel/DZIIy3TJ0K4/?stkn=MXJnZmloM2Uzb3Y1OA==', img: 'assets/toprank.PNG', title: 'Event Top Rank #1', desc: 'Video Editing • 2026' },
   { cat: 'Video & 3D', video: 'https://www.instagram.com/reel/DXylIidza7H/?obrf=NXcyOXF4bXJ2N3Bx', img: 'assets/promosiabp1.jpeg', title: 'Event Top Rank #1 PART 2', desc: 'Video Editing • 2026' },
   { cat: 'Video & 3D', video: 'https://www.instagram.com/reel/DeSCcGcxnPs/?obrf=bjh2OGFyeDlpdG83', img: 'assets/AFTERMOVIE (1).png', title: 'Editing Pribadi', desc: 'BUMPER • 2026' },
